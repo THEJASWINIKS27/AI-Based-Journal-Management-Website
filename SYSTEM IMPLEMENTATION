@@ -1,1 +1,30 @@
+1. Core Framework
+Django Built-ins: Authentication, Database, Admin Panel.
+Forms & Views: For handling submissions and rendering templates.
 
+2. Article Submission & Viewing
+Models: Article, Comment.
+Forms: ArticleForm, CommentForm.
+Tools: PyPDF2, docx, pdfminer for file parsing; messages, login_required for UX and access.
+
+3. Plagiarism Checker
+Model: PlagiarismCheck.
+Tools: BeautifulSoup, requests, nltk for checks; FileResponse for report download.
+
+4. News & Announcements
+Models: News, Announcement.
+Forms: Admin tools for managing updates.
+
+5. AI Chatbot
+Model: DistilBART (transformers).
+Tools: JsonResponse, csrf_exempt for interaction.
+
+6. Contact & Email (SMTP)
+Tools: send_mail, settings for user notifications.
+
+7. Auth & Users
+Forms: SignupForm, LoginForm.
+Tools: login, logout, user_passes_test for access control.
+
+8. File Downloads
+Tool: reportlab for generating dynamic PDF reports.
