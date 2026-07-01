@@ -1,1 +1,55 @@
+-------Admin Process Flow-------
+Start
+Login to Admin Panel
+Manage Users
+Manage Submissions (Approve/Reject)
+Post Announcements
+Post Latest News
+Monitor Plagiarism Reports
+Answer Contact  Us Queries
+View Archives (Past issues)
+Logout
+end 
+
+------- Admin Reviewing Articles------- 
+Start
+Login to Admin Dashboard
+View Submitted Articles
+Open Article Details
+View Content + Uploaded File + Plagiarism Report
+Decision Point : 1. Approve 2. Reject
+End         
+
+
+------- Users-------
+Start
+Login/Register
+Access Submit Article Page
+Fill Title+ Content+Upload PDF/DOCX
+Use AI Summarizer (Optional)
+Accept Declaration (Checkbox)
+Submit
+Plagiarism Check Triggered
+Await Admin Review
+end
+
+
+------- Guest user--------
+Start
+Access IJMS Website (HomePage)
+View Homepage Content
+[Explore Options:]                     
+ 1. View Latest Articles (only Published/Approved ones) 
+ 2.Read Announcements (Posted by Admin)                  
+ 3. Check News Section (Latest Research News                       
+ 4. Use Chatbot to Ask Basic Questions (Optional)       
+ 5.Read Aims & Scope, Indexing, Open Access Policies 
+ 6.View Archives (Past Approved Volumes/Issues    
+ 7.Navigate to Contact Us Page (Submit Query - optional)
+If Guest Wants to Submit Article:                                               
+Prompt: Must Register to signup/Login Page
+Redirect to Signup/Login Page
+Otherwise Just Browse Content
+End
+
 
